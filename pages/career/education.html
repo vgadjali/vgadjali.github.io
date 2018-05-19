@@ -15,6 +15,7 @@
     
     <!-- CSS -->
     <link rel="stylesheet"  type="text/css" href="/pages/career/education.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     
 </head>
 <body>
@@ -47,32 +48,79 @@
                 <!--INTERESTS-->
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Interests<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Art</a></li>
-                        <li><a href="#">Music</a></li>
-                        <li><a href="#">Fitness</a></li>
-                        <li><a href="#">Travel</a></li>                        
+                        <li><a href="/pages/interests/art.html">Art</a></li>
+                        <li><a href="/pages/interests/music.html">Music</a></li>
+                        <li><a href="/pages/interests/fitness.html">Fitness</a></li>
+                        <li><a href="/pages/interests/travel.html">Travel</a></li>                       
                     </ul>                  
                 </li>
                 <!--CENTER LOGO-->
                 <li><a href="/index.html"><img id="logo-navbar-middle" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png" width="200" alt="Logo Thing main logo"></a></li>
                 <li><a href="/pages/contact.html">Contact</a></li>
-                <li><a href="/images/RESUME.CS.2015.4.4.pdf" target="_blank">Resume</a></li>
+                <li><a href="/images/Valerie_Gadjali_Resume_CS2018.pdf" target="_blank">Resume</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
     </header><!-- header role="banner" -->
     
-    <div>
-        <img src="#" alt="UCD"><br>
-        <h1>University of California, Davis</h1>
-        <p>Davis, CA</p>
-        <h3>BS in Computer Science<br>Double minor in Technology Management and Music</h3>
-        <h4>Class of 2015</h4>
-    </div>
+    
+    <div class="UCDLogo"></div> <!-- NOT WORKING >:( -->
     
     <div>
-        <img src="#" alt="MSJHS"><br>
+        HELLO
+        <img id="UCDLogo" src="/images/UCD%20Logo.jpg" alt="UCD"><br>
+        <h1><b>University of California, Davis</b></h1>
+        <p>Davis, CA</p>
+        <div class="rhstxt"> <!-- HOW TO FLOAT TO THE RIGHT? TRY SAME LINE AND RHS IT? -->
+            <h2>Class of 2015</h2>
+            <h4>September 2011 - Auguest 2015</h4>
+            
+        </div>
+        <!-- Table of organizations? -->
+        <h3>B.S. in Computer Science<br>Minor in Technology Management<br>Minor in Music</h3>
+        <p>Dean’s Honor List, Winter Quarter 2015</p>
+        
+        <table class="table table-sm">
+          <tbody>
+            <tr>
+                <th scope="col">Dates (From - To)</th>
+                <th scope="col">Organization</th>
+                <th scope="col">Role</th>
+            </tr>
+            <tr>
+              <td>September 2011 - August 2015</td>
+              <td>UCD Computer Science Club</td>
+              <td>Club Member</td>
+            </tr>
+            <tr>
+              <td>September 2013 - June 2015</td>
+              <td>UCD Samba School and Samba Band</td>
+              <td>2nd Surdo Player</td>
+            </tr>
+            <tr>
+              <td>September 2012 - June 2013</td>
+              <td>UCD Concert Band</td>
+              <td>Tenor 1 Saxophone</td>
+            </tr>
+            <tr>
+              <td>September 2012 - June 2013</td>
+              <td>UCD Choir</td>
+              <td>Soprano 1 Singer</td>
+            </tr>
+            <tr>
+              <td>September 2011 - December 2012</td>
+              <td>Popping Club</td>
+              <td>Club dance performer</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    
+    <div class="MSJ"> </div> <!-- NOT WORKING >:( -->
+    
+    <div>
+        <img id="MSJHS" src="/images/MSJHS.jpg" alt="MSJHS"><br>
         <h1>Mission San Jose High School</h1>
         <p>Fremont, CA</p>
         <h3>Class of 2011</h3>

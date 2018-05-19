@@ -1,0 +1,23 @@
+body{
+    font-family: 'Questrial', sans-serif;
+}
+
+#navbar-primary .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+#navbar-primary .navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+#navbar-primary .navbar-nav > li > a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header{
+    height: 40vw;
+    padding-top: 10vw;
+    background-color: aliceblue;
+    /*FIX THE LEFT/RIGHT SHIFT BTWN THIS PG AND INDEX. WHY?*/
+}

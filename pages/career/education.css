@@ -1,3 +1,8 @@
+body{
+    font-family: 'Questrial', sans-serif;
+    line-height: 1em;
+}
+
 #navbar-primary .navbar-nav {
   width: 100%;
   text-align: center;
@@ -15,4 +20,29 @@ header{
     height: 40vw;
     padding-top: 10vw;
     background-color: aliceblue;
+}
+
+#UCDLogo{
+    width: 100%;
+    height: auto;
+}
+
+.UCDLogo {
+    background-image: url(/images/UCD%20Logo.jpg);
+
+}
+
+.MSJ{
+    background-image: url(/images/MSJHS.jpg);
+    background-size: cover;
+}
+
+#MSJHS{
+    width: 100%;
+    height: auto;
+}
+
+.rhstxt{
+    text-align: right;
+    float: right;
 }
