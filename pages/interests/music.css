@@ -21,3 +21,15 @@ header{
     background-color: aliceblue;
     /*FIX THE LEFT/RIGHT SHIFT BTWN THIS PG AND INDEX. WHY?*/
 }
+
+.container{
+    text-align: center;
+}
+
+.thumbnail >img{
+/*    FIX CROPPING  */
+/*    position: absolute;*/
+/*    clip: auto;*/
+    width: 350px;
+    height: 350px;
+}

@@ -1,6 +1,5 @@
 body{
     font-family: 'Questrial', sans-serif;
-    line-height: 1em;
 }
 
 #navbar-primary .navbar-nav {
@@ -21,12 +20,23 @@ header{
     padding-top: 10vw;
     background-color: aliceblue;
 }
+
+.cover{
+    width: 100vw;
+}
+.SectionContent{
+    margin: 0vw 10vw;
+}
+#cylogo{
+    width: 500px;
+    max-width: 50vw;
+}
+
 .pgtitle{
     text-align: center;
 }
 
-.SectionContent{
-    display: block;
+.content{
     margin: 0vw 10vw;
 }
 
@@ -34,28 +44,3 @@ header{
     text-align: right;
     float: right;
 }
-
-.centerinfo{
-    text-align: center;
-}
-
-#UCDLogo{
-    width: 100%;
-    height: auto;
-}
-
-.UCDLogo {
-    background-image: url(/images/UCD%20Logo.jpg);
-
-}
-
-.MSJ{
-    background-image: url(/images/MSJHS.jpg);
-    background-size: cover;
-}
-
-#MSJHS{
-    width: 100%;
-    height: auto;
-}
-

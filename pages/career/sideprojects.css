@@ -30,13 +30,24 @@ header{
     max-width: 50vw;
 }
 
-.title{
-    float: left;
+.pgtitle{
+    text-align: center;
+}
+
+.SectionContent{
+    margin: 0vw 10vw;
+}
+
+.rhstxt{
+    text-align: right;
+    float: right;
 }
 
 #cyweb{
     width: 70vw;
     height: 70vh;
+    display: block;
+    margin: auto;
 }
 
 .cydesc{

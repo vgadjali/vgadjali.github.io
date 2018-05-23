@@ -14,40 +14,15 @@ body{
   padding-left: 30px;
   padding-right: 30px;
 }
-.pgtitle{
-    text-align: center;
-}
+
 header{
     height: 40vw;
     padding-top: 10vw;
     background-color: aliceblue;
+    /*FIX THE LEFT/RIGHT SHIFT BTWN THIS PG AND INDEX. WHY?*/
 }
 
-.rhstxt{
-    text-align: right;
-    float: right;
-/*    vertical align bottom! */
-}
-.SectionContent{
-    display: block;
-    margin: 0vw 10vw;
-}
-
-.cover{
-    width: 90vw;
-}
-
-.logo{
-    width: 30vw;
-}
-
-.table{
-}
-
-.table td{
-    text-align: center;
-}
-
-.table th{
-    text-align: center;
+.youtube{
+    margin: 20%;
+    margin: auto;
 }
