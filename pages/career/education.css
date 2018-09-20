@@ -4,16 +4,16 @@ body{
 }
 
 #navbar-primary .navbar-nav {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 #navbar-primary .navbar-nav > li {
-  display: inline-block;
-  float: none;
+    display: inline-block;
+    float: none;
 }
 #navbar-primary .navbar-nav > li > a {
-  padding-left: 30px;
-  padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header{
@@ -37,6 +37,7 @@ header{
 
 .centerinfo{
     text-align: center;
+    width: 100%;
 }
 
 #UCDLogo{
@@ -44,14 +45,20 @@ header{
     height: auto;
 }
 
-.UCDLogo {
-    background-image: url(/images/UCD%20Logo.jpg);
-
+.banner{
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.MSJ{
+#ucd{
+    background-image: url(/images/UCD%20Logo.jpg);
+}
+
+#msjhs{
     background-image: url(/images/MSJHS.jpg);
-    background-size: cover;
 }
 
 #MSJHS{

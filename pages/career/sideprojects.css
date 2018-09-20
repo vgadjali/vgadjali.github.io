@@ -21,8 +21,17 @@ header{
     background-color: aliceblue;
 }
 
-.cover{
-    width: 100vw;
+.banner{
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#CarmichaelYoga{
+    background-image: url(/images/DSC06954.JPG);
 }
 
 #cylogo{

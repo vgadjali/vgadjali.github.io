@@ -21,9 +21,23 @@ header{
     background-color: aliceblue;
 }
 
-.cover{
-    width: 100vw;
+.banner{
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+#MeowMobile{
+    background-image: url(/images/meowmobilecover.jpg);
+}
+
+#MMLogo{
+    width: 30%;
+}
+
 .SectionContent{
     margin: 0vw 10vw;
 }

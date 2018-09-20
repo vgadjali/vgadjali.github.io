@@ -22,6 +22,9 @@ header{
     padding-top: 10vw;
     background-color: aliceblue;
 }
+h3{
+    text-align: center;
+}
 
 .rhstxt{
     text-align: right;
@@ -30,15 +33,33 @@ header{
 }
 .SectionContent{
     display: block;
-    margin: 0vw 10vw;
+    margin: 1vw 10vw;
 }
 
 .cover{
     width: 90vw;
 }
 
+.banner{
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#fast{
+    background-image: url(/images/fast%20cover.jpg);
+    min-height: 200px;
+}
+#OneTea{
+    background-image: url(/images/One%20Tea%20cover.jpg);
+    min-height: 400px;
+}
+
 .logo{
-    width: 30vw;
+    width: 30%;
 }
 
 .table{
