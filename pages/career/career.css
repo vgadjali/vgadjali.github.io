@@ -3,24 +3,39 @@ body{
 }
 
 #navbar-primary .navbar-nav {
-  width: 100%;
-  text-align: center;
-}
-#navbar-primary .navbar-nav > li {
-  display: inline-block;
-  float: none;
-}
-#navbar-primary .navbar-nav > li > a {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.pgtitle{
+    width: 100%;
     text-align: center;
 }
+#navbar-primary .navbar-nav > li {
+    display: inline-block;
+    float: none;
+    background-color: rgba(255,255,255, 0.7);
+}
+#navbar-primary .navbar-nav > li > a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 header{
-    height: 40vw;
+    height: auto;
     padding-top: 10vw;
     background-color: aliceblue;
+
+    background-image: url("/images/Oil%20Concentrate.jpg");
+    background-size: 100%;
+}
+
+
+.description{
+    background-color: rgba(255,255,255, 0.7);
+}
+
+#pgDescrip{
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
 }
 h3{
     text-align: center;
@@ -37,7 +52,7 @@ h3{
 }
 
 .cover{
-    width: 90vw;
+    width: 100vw;
 }
 
 .banner{
@@ -60,9 +75,6 @@ h3{
 
 .logo{
     width: 30%;
-}
-
-.table{
 }
 
 .table td{

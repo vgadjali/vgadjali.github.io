@@ -1,6 +1,5 @@
 body{
     font-family: 'Questrial', sans-serif;
-    line-height: 1em;
 }
 
 #navbar-primary .navbar-nav {
@@ -10,6 +9,7 @@ body{
 #navbar-primary .navbar-nav > li {
     display: inline-block;
     float: none;
+    background-color: rgba(255,255,255, 0.7);
 }
 #navbar-primary .navbar-nav > li > a {
     padding-left: 30px;
@@ -17,12 +17,25 @@ body{
 }
 
 header{
-    height: 40vw;
+    height: auto;
     padding-top: 10vw;
     background-color: aliceblue;
+
+    background-image: url("/images/Oil%20Concentrate.jpg");
+    background-size: 100%;
 }
-.pgtitle{
+
+
+.description{
+    background-color: rgba(255,255,255, 0.7);
+}
+
+#pgDescrip{
     text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .SectionContent{
