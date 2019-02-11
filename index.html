@@ -1,76 +1,152 @@
 <!DOCTYPE html>
 <html>
-<head>
-    
-    <title>Valerie Gadjali</title>
-    
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <head>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Valerie Gadjali</title>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
-    <!-- CSS -->
-    <link rel="stylesheet"  type="text/css" href="/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-    
-</head>
-<body>
-    <!-- NAVIGATION BAR -->
-    <header role="banner">
-        <nav id="navbar-primary" class="navbar" role="navigation">
-            <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <!-- TODO: Find a way to fix collapsed navbar to only take side links, but leave logo up on the left -->
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
-                      <span class="glyphicon glyphicon-menu-hamburger btn-lg"></span>
-                  </button>
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet"  type="text/css" href="/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- NAVIGATION BAR -->
+        <header role="banner">
+            <nav id="navbar-primary" class="navbar" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <!-- TODO: Find a way to fix collapsed navbar to only take side links, but leave logo up on the left -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+                            <span class="glyphicon glyphicon-menu-hamburger btn-lg"></span>
+                        </button>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+                        <ul class="nav navbar-nav">
+                            <!--CAREER-->
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Career<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/pages/career/education.html">Education</a></li>
+                                    <li><a href="/pages/career/career.html">Career</a></li>
+                                    <li><a href="/pages/career/sideprojects.html">Side Projects</a></li>
+                                    <li><a href="/pages/career/volunteer.html">Volunteer</a></li>
+                                </ul>
+                            </li>
+                            <!--INTERESTS-->
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Interests<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/pages/interests/art.html">Art</a></li>
+                                    <li><a href="/pages/interests/music.html">Music</a></li>
+                                    <li><a href="/pages/interests/fitness.html">Fitness</a></li>
+                                    <li><a href="/pages/interests/travel.html">Travel</a></li>                        
+                                </ul>                  
+                            </li>
+                            <!--CENTER LOGO-->
+                            <li><a href="/index.html"><img id="logo-navbar-middle" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png" width="200" alt="Logo Thing main logo"></a></li>
+                            <li><a href="/pages/contact.html">Contact</a></li>
+                            <li><a href="/images/Valerie_Gadjali_Resume_CS2018.pdf" target="_blank">Resume</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div class="description container">
+                <p id = "pgDescrip">Welcome to my website.</p>
             </div>
-            <div class="collapse navbar-collapse" id="navbar-primary-collapse">
-              <ul class="nav navbar-nav">
-                <!--CAREER-->
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Career<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/pages/career/education.html">Education</a></li>
-                        <li><a href="/pages/career/career.html">Career</a></li>
-                        <li><a href="/pages/career/sideprojects.html">Side Projects</a></li>
-                        <li><a href="/pages/career/volunteer.html">Volunteer</a></li>
-                    </ul>
-                </li>
-                <!--INTERESTS-->
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Interests<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/pages/interests/art.html">Art</a></li>
-                        <li><a href="/pages/interests/music.html">Music</a></li>
-                        <li><a href="/pages/interests/fitness.html">Fitness</a></li>
-                        <li><a href="/pages/interests/travel.html">Travel</a></li>                        
-                    </ul>                  
-                </li>
-                <!--CENTER LOGO-->
-                <li><a href="/index.html"><img id="logo-navbar-middle" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png" width="200" alt="Logo Thing main logo"></a></li>
-                <li><a href="/pages/contact.html">Contact</a></li>
-                <li><a href="/images/Valerie_Gadjali_Resume_CS2018.pdf" target="_blank">Resume</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-        <div class="description container">
-            <p id = "pgDescrip">Welcome to my website.</p>
-        </div>
-    </header><!-- header role="banner" -->
-    
-    
-    
-    
-    
+        </header><!-- header role="banner" -->
 
-</body>
+
+        <!-- BLOG -->
+        <div class = "container">
+            <div style = "text-align: center">
+                <h1>Taiwan</h1>
+                <h2>Jan 14, 2019 - Jan 24, 2019</h2>
+                <h3> SFO > TPE > SFO</h3>
+            </div>
+            <p>Daniel, my boyfriend, has finally graduated his university and for his graduation trip, he decided that he wanted to return to his parents’ homeland. The last time he had visited Taiwan was around 10 years ago, whereas I had gone back to visit just three years ago. My mother’s side originally came from Taiwan, and it is one of my favorite places in Asia to visit. However, this trip would be our first time going without our parents, and with our limited conversational Chinese and practically nonexistent reading skills, I was pretty nervous about how well we’d fare in this foreign country. I did all the research I could, and limited ourselves to only Taipei, even though friends and family kept urging us to explore farther out.</p>
+            <br>
+            <h4>January 14 Agenda:</h4>
+            <ul>
+                <li>9AM Breakfast</li>
+                <li>10AM Drive to SFO</li>
+                <li>11AM Check in Luggages</li>
+                <li>11:30AM Go through TSA</li>
+                <li>12PM Lunch & Lounge</li>
+                <li>2:15PM Flight Departs</li>
+            </ul>
+
+            <br>
+            <p>Although this was during the time of the government shutdown, our experience through TSA went pretty smoothly. Both of us had Global Entry, which meant that we were allowed through the TSA Precheck line and did not have to take out our electronics, liquids, or shoes. Once we had gotten through, we stopped by a nearby restaurant to pick up some lunch. As a Mileage Plus Gold Premier member, I had planned on taking him to the United Lounge, but I knew that they did not provide enough food for a full on meal. When we arrived at the lounge, it was around noon and the room was packed full of people. We almost could not find seats and ended up settling down in the quiet zone. By the time we left to catch our flight, however, the lounge had mostly emptied out.</p>
+
+            <p>Due to Air traffic control not providing us a lane to take off at, we were delayed at the gate for almost an hour. Daniel and I had gotten free upgrades to Economy Plus seating, and so we had settled into a window and middle seat. During the flight, our sleep was pretty restless, and food was pretty sparse and not very appetizing. We were served a meal at the start of the flight, a tiny sandwich 2/3rds of the way in, and our final meal at the very end.</p>
+
+            <h4>January 15 Agenda:</h4>
+            7:30PM 8:30PM Arrive in Taipei. Go through immigration and pick up luggages
+            9:00PM Buy Bus tickets and catch our ride to the city
+            10:00PM Check into hotel. Sleep.
+
+            <p>Due to the delay, we ended up arriving in Taipei an hour late. Since we were sitting relatively towards the front of the plane, we did not have to wait too long for Taiwan immigration. While planning this trip, my biggest worry was finding our way onto the bus to the city, but it turned out relatively easy to find. We took the 5201 Evergreen express bus to the Minsheng Songjiang Road intersection which was only a few blocks from the hotel we were staying at, Roumei Hotel. On the bus, we had coincidentally bumped into a family friend’s mom, who had just arrived from her trip to Japan. Delighted by this turn of events, we attempted to take pictures and had a quick catch up during the ride.</p>
+
+            <p>After getting dropped off by the bus, locating the hotel was a tad bit difficult. As T-Mobile users, we both had unlimited, but slow data in international countries, so we were able to pull up the hotel on a map. However, we ended up actually missing a turn to the hotel, because it was in a small alleyway.</p>
+
+            <p>Roumei Beauty Hotel has a pretty minimal lobby. There is a front desk with two attendants directly in front of the entrance, and a small waiting area just to the left. I had originally booked my reservation through Agoda, a third party website, but it was nice to see that the hotel had my files already prepared before my arrival. We were assigned room 302, which was just down the halls from the elevator. The hotel provided a surplus of water bottles, and a few snacks that were complimentary. They did not have a minibar or anything with hidden fees, like the way American hotels do, which definitely made my experience a lot less stressful. Our room had the view of an alleyway, and a construction site, so nothing very interesting. The bathroom, on the other hand, was extremely large and consisted of a bidet toilet, a standing shower that doubled as a sauna, and a hot tub that had jets and a disco lights setting. Many bathroom amenities were provided, such as a disposable razor, qtips, and even condoms. The hotel also provided slippers so we did not have to walk around the room barefoot or with shoes on. A minifridge was provided with more water and a couple cans of soda, but there was no microwave. After a quick exploration of the room, we settled in and quickly fell asleep.</p>
+
+            <br>
+            <h4>January 16 Agenda:</h4>
+            <ul>
+                <li>7:30AM Hotel Breakfast</li>
+                <li>11:30AM Lunch with a friend</li>
+                <li>1:30PM Explore Taipei Main Station</li>
+            </ul>
+
+            <p>One of the displeasures of international travel is jet lag and we were unfortunately affected by it pretty strongly. Although we had went to bed at around 11PM the night before, we ended up waking up at 5AM in the morning. The hotel breakfast is served from 7:30AM to 9:30AM, so we killed some time in bed until then. Hotel breakfast was served buffet style, with a variety of different foods. They had a coffee machine that dispensed your choice of hot drinks from hot water to a hot latte. You could pick from a selection of western bread, eastern bread, cold cut meats, hot brothy soups, Chinese dishes, fries, porridge, beef gravy, and salad. For cold drinks, there was milk tea, orange juice, milk, and Yakult, a yogurt drink.</p>
+
+            <p>After breakfast, we decided to head to Taipei Main Station a little early. Only upon arrival did we realize that none of the shops were open, so we just wandered up and down the hallways of the underground station. Taipei Main Station was like a maze; there were many parts to the station, and many hallways that lead to other public transit systems, or other MRT stations. We soon found out that the area that we were wandering in was not quite where we were supposed to get lunch, so we hurried back the way we came from. We were meeting a friend of ours for lunch, and he had made reservations at a buffet in QSquare, on the 4th floor. For $20USD equivalent, you had access to foods that ranged from raw sushi to a seafood bar to hot soups to alcohol to decadent desserts. Although the venue seemed quite nice, I knew the potential of Taiwanese buffets and was not very impressed with the place. If I returned to Taipei again, I do not think I would return to this buffet.</p>
+
+            <p>The rest of the day was spent exploring the underground tunnels of Taipei Main station. By 6PM, we were pretty exhausted and ate a quick dinner at the food court in B2 of QSquare, and took the MRT home.</p>
+
+            <br>
+            <h4>January 17 Agenda:</h4>
+            <ul>
+                <li> 7:00AM Fuhang Soy Milk</li>
+                <li> 10AM Huashan Creative Park</li>
+                <li> 11AM Guanghua Digital Plaza</li>
+                <li> 1PM Aychung Noodles</li>
+                <li> 2PM Ximending</li>
+                <li> 4PM Hotel to rest</li>
+                <li> 7PM Raohe Night Market</li>
+            </ul>
+
+            <p>Jet lag strikes again! This time we woke up at 5:30AM, but we decided to head out to Fuhang Soy Milk a little earlier. Fuhang is well known for their breakfast and their line is known to go down the stairs, out the door, and around the corner. Luckily, we beat the rush hour and we walked straight up to the counter. However, once we got our food and turned around, the line had already quickly piled out the door. The main menus are all in Chinese, but they provided handheld ones that had both English and Chinese and had pictures. We got egg wrapped in bread, a meat bun, soymilk, and a rice ball. Each item ranged between $1-2, so we probably spent less than $10USD between the both of us.</p>
+
+            <p>After breakfast, we went to Huashan Creative Park to explore. It was this time when we realized that most of of the stores and shopping in Taipei did not open until 11AM. So we just walked around the area, and then took a break on a bench to kill time. We ended up in the Guanghua Digital Plaza across the street when stores started to open, and we picked up some supplies there. Guanghua Digital Plaza was essentially a huge building mall that only sold electronics. We saw numerous Asus shops, monitor shops, and phone shops. Anything that conducted electricity or held a battery, you would be able to find in this mall.</p>
+
+            <p>After the Digital Plaza, we took the MRT west towards Ximending. Ximending is a popular shopping centers of Taipei, similar to NYC’s Times Square or Japan’s Shibuya neighborhood. Our first stop was to get lunch at Aychung Noodle Shop. This noodle shop is pretty famous, even though they provide no seating for their customers. You just lineup to pick up your food at the counter, and then have to stand to finish your noodles afterwards. A small bowl costs about $1USD, and a large one costs $2USD. All the food in Taiwan is pretty affordable. We explored the area and found many suit shops in the area. When Daniel chatted with one of the shopkeepers, he was offered a made-to-measure suit with a turnaround time of 1 week for only $180, which is a steal compared to the usual $500 rate one would get in the states.</p>
+
+            <p>At around 4PM, we went back to the hotel to take a break, before heading out to the Raohe Night Market for dinner. Raohe is not an extremely big night market; it consisted only of one street. However, you could still get your staple night market foods, as well as their famous black pepper buns. We stopped at every stinky tofu station we could find and also picked up Taiwanese sausages and fried chicken along the way. Most of the food we ate there was on the junkier side, so for the sake of my IBS and my stomach, I took a break at a noodle and hot soup shop before we left the market. Raohe was a very enjoyable night market; most of the vendors were food, and some even provided seating for their customers. It wasn’t overly crowded to the point where you had to squeeze through people, but it was still bustling for a weekday night.</p>
+
+            <br>
+            <h4>January 18 Agenda:</h4>
+            <ul>
+                <li>7:30AM Breakfast</li>
+                <li>9AM Bus to Jiufen</li>
+                <li>10AM Jiufen</li>
+                <li>4PM Bus to Taipei</li>
+                <li>7PM Dinner</li>
+            </ul>
+        </div>
+
+    </body>
 </html>
